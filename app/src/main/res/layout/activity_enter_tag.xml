@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical"
+    tools:context="com.android.oindexter.ui.HomeActivity">
+
+    <include layout="@layout/app_bar"></include>
+    
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        style="@style/both_match_parent">
+
+        <EditText
+            android:textColor="#fff"
+            android:textColorHint="#d1d1d1"
+            android:hint="Enter Car Tag"
+            android:padding="16dp"
+            android:background="@drawable/border"
+            style="@style/match_wrap_content" />
+
+        <Button
+            android:id="@+id/btnGo"
+            android:layout_margin="18dp"
+            android:padding="18dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:background="@drawable/green"
+            android:text="GO"
+            style="@style/both_wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

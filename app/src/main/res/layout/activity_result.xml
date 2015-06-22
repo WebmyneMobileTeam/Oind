@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical"
+    tools:context="com.android.oindexter.ui.HomeActivity">
+
+    <include layout="@layout/app_bar"></include>
+
+    <LinearLayout
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        style="@style/both_match_parent">
+
+
+        <TextView
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Mr. Dhruvil Patel"
+            android:textSize="32sp"
+            android:textColor="#fff"
+            style="@style/match_wrap_content" />
+
+        <TextView
+
+            android:layout_marginTop="8dp"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:text="c-105, Xyz Soc. Nr Circuit House.
+            Vadodara, 390011"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            style="@style/match_wrap_content" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Car Tag : GJ7 BD 6504"
+            android:textSize="24sp"
+            android:textColor="#fff"
+            style="@style/match_wrap_content" />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Mobile : +919687203190"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            style="@style/match_wrap_content" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

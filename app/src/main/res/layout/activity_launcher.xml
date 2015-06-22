@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LauncherActivity">
+
+
+    <ImageView
+        style="@style/both_match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dark_background" />
+
+
+    <LinearLayout
+        android:gravity="center"
+        style="@style/both_wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:fontFamily="sans-serif"
+            android:textSize="42sp"
+            android:textColor="#fff"
+            android:text="Oindexter"
+            style="@style/both_wrap_content" />
+
+        <com.android.customloaders.LoaderView
+            android:layout_marginTop="16dp"
+            android:id="@+id/imageLoader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:loaderFrameDelay="40"
+            app:loaderType="intersect" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

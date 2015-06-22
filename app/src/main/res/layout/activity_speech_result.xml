@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical"
+    tools:context="com.android.oindexter.ui.HomeActivity">
+
+    <include layout="@layout/app_bar"></include>
+
+    <LinearLayout
+        android:orientation="vertical"
+        style="@style/both_match_parent">
+
+        <ListView
+            android:id="@+id/listSpeechResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

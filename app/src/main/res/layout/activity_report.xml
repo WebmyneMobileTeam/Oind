@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_background"
+    android:orientation="vertical"
+    tools:context="com.android.oindexter.ui.HomeActivity">
+
+    <include layout="@layout/app_bar"></include>
+
+    <LinearLayout
+        android:orientation="vertical"
+        style="@style/both_match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/linearSpeakScan"
+            android:background="@drawable/layout_selecter"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            style="@style/both_match_parent">
+
+            <ImageView
+                android:id="@+id/imgCall"
+                android:layout_weight="1"
+                android:src="@drawable/ic_mnone"
+                android:scaleType="centerInside"
+                style="@style/both_match_parent" />
+
+            <TextView
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#fff"
+                android:textSize="36sp"
+                android:text="Speech Car Tag"
+                style="@style/both_wrap_content" />
+
+        </LinearLayout>
+
+        <View style="@style/match_wrap_content"
+            android:layout_height="1dp"
+            android:background="#fff"
+            ></View>
+
+        <LinearLayout
+            android:id="@+id/linearEnterCarTag"
+            android:background="@drawable/layout_selecter"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            style="@style/both_match_parent">
+
+            <ImageView
+                android:id="@+id/imgCar"
+                android:layout_weight="1"
+                android:src="@drawable/ic_edit_icon"
+                android:scaleType="centerInside"
+                style="@style/both_match_parent" />
+
+            <TextView
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#fff"
+                android:textSize="36sp"
+                android:text="Enter Car Tag"
+                style="@style/both_wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
